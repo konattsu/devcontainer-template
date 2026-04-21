@@ -23,8 +23,8 @@
     "vscode": {
       "extensions": [
         // markdown
-        "davidanson.vscode-markdownlint",
         "bierner.markdown-mermaid",
+        "davidanson.vscode-markdownlint",
 
         // git/github
         "donjayamanne.githistory",
