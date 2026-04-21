@@ -1,19 +1,21 @@
 services:
-  dev-container:
+  devcontainer:
     build:
       context: .
       dockerfile: Dockerfile
 
-    container_name: dev-container-container
+    container_name: devcontainer-container-name
     working_dir: /workspaces
 
     # ports:
 
     volumes:
-      # - ~/<PATH>:/workspaces:cached
+      # We should change the path and volume name according to your project
+      # when we use this template.
+      - ~/devcontainer-template:/workspaces:cached
       # - ${SSH_AUTH_SOCK}:/ssh-agent
 
-    environment:
+    # environment:
       # SSH_AUTH_SOCK: /ssh-agent
 
     # cap_add:

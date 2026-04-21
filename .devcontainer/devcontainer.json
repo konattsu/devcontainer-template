@@ -6,8 +6,8 @@
 // vscodeで`rebuild`, 直る
 
 {
-  "name": "Devcontainer",
-  "service": "dev-container",
+  "name": "DevcontainerTemplate",
+  "service": "devcontainer",
   "workspaceFolder": "/workspaces",
   "dockerComposeFile": "./compose.yml",
 
