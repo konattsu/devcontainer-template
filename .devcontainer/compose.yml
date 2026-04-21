@@ -1,0 +1,24 @@
+services:
+  dev-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: dev-container-container
+    working_dir: /workspaces
+
+    # ports:
+
+    volumes:
+      # - ~/<PATH>:/workspaces:cached
+      # - ${SSH_AUTH_SOCK}:/ssh-agent
+
+    environment:
+      # SSH_AUTH_SOCK: /ssh-agent
+
+    # cap_add:
+    #   - SYS_PTRACE
+    # security_opt:
+    #  - seccomp:unconfined
+
+    command: sleep infinity
