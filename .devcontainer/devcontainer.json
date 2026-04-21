@@ -11,6 +11,9 @@
   "workspaceFolder": "/workspaces",
   "dockerComposeFile": "./compose.yml",
 
+  // カスタマイズしたかったら, とりあえずここあたる
+  // e.g. ユーザ名をnodeみたいにしたい -> typescript-node 参照して, imageたどっていくと以下までたどり着く -> common-utils使えばいいと分かる
+  //   https://github.com/devcontainers/images/blob/main/src/javascript-node/.devcontainer/devcontainer.json
   // "features": {
   //   // ref: https://containers.dev/features
   // },
@@ -38,7 +41,6 @@
         "christian-kohler.path-intellisense",
         "editorconfig.editorconfig",
         "esbenp.prettier-vscode",
-        "gruntfuggly.todo-tree",
         "mosapride.zenkaku",
         "ms-azuretools.vscode-docker",
         "redhat.vscode-yaml",
